@@ -18,17 +18,17 @@ sw_name=[]
 sw_price=[]
 sw_rating=[]
 
-for i in names:
-    print(i.text)
-    sw_name.append(i.text)
+for name in names:
+    print(name.text)
+    sw_name.append(name.text)
 
-for j in price:
-    print(j.text)
-    sw_price.append(j.text)
+for prices in price:
+    print(prices.text)
+    sw_price.append(prices.text)
 
-for k in rating:
-    print(k.text)
-    sw_rating.append(k.text)
+for ratings in rating:
+    print(ratings.text)
+    sw_rating.append(ratings.text)
 
 final=zip(sw_name,sw_price,sw_rating)
 
